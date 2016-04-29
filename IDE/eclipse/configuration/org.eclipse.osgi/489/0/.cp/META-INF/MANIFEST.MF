@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %bundleVendor
+Bundle-Version: 1.0.0.201604081631
+Built-By: jenkins
+Build-Jdk: 1.7.0_95
+Bundle-Name: %bundleName
+Bundle-ManifestVersion: 2
+Created-By: Apache Maven
+Bundle-SymbolicName: ch.hsr.ifs.sconsolidator.help; singleton:=true
+Archiver-Version: Plexus Archiver
+
