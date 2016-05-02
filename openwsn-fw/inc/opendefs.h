@@ -155,6 +155,7 @@ enum {
    COMPONENT_TECHO                     = 0x20,
    COMPONENT_TOHLONE                   = 0x21,
    COMPONENT_UECHO                     = 0x22,
+   COMPONENT_BEACON                    = 0x23,
 };
 
 /**
@@ -227,7 +228,11 @@ enum {
    ERR_INVALIDSERIALFRAME              = 0x36, // invalid serial frame
    ERR_INVALIDPACKETFROMRADIO          = 0x37, // invalid packet frome radio, length {1} (code location {0})
    ERR_BUSY_RECEIVING                  = 0x38, // busy receiving when stop of serial activity, buffer input length {1} (code location {0})
-   ERR_WRONG_CRC_INPUT                 = 0x39, // wrong CRC in input Buffer (input length {0})
+   ERR_WRONG_CRC_INPUT                 = 0x39,
+   ERR_BEACON_NR                       = 0x3a, // transmitting BEACON number :{0}
+   ERR_BEACON_OVERFLOWN                = 0x3b, // BEACON transmission OVERFLOWN, already sent:{0}
+   ERR_BEACON_FULL                     = 0x3c, // critical number of BEACON sent ({0})
+   // wrong CRC in input Buffer (input length {0})
 };
 
 //=========================== typedef =========================================
