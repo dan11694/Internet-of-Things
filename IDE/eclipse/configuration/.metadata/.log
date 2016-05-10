@@ -2266,3 +2266,91 @@ java.io.FileNotFoundException: /home/daniele/Desktop/openwsn-coap/openwsn-fw/.pr
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SESSION 2016-05-10 09:33:08.593 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY ch.hsr.ifs.sconsolidator.core 1 1 2016-05-10 09:51:53.128
+!MESSAGE /usr/bin/scons -u --jobs=2
+
+!ENTRY ch.hsr.ifs.sconsolidator.core 1 1 2016-05-10 09:51:53.138
+!MESSAGE /usr/bin/scons -u --jobs=2
+
+!ENTRY ch.hsr.ifs.sconsolidator.core 1 1 2016-05-10 09:52:44.716
+!MESSAGE /usr/bin/scons -u -s board=telosb toolchain=mspgcc oos_openwsn -f SConstruct -f /home/daniele/Desktop/openwsn-coap/openwsn-fw/BuildInfoCollector.py --directory=/home/daniele/Desktop/openwsn-coap/openwsn-fw
+
+!ENTRY ch.hsr.ifs.sconsolidator.core 1 1 2016-05-10 09:52:44.720
+!MESSAGE /usr/bin/scons -u -s board=telosb toolchain=mspgcc oos_openwsn -f SConstruct -f /home/daniele/Desktop/openwsn-coap/openwsn-fw/BuildInfoCollector.py --directory=/home/daniele/Desktop/openwsn-coap/openwsn-fw
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-10 09:53:13.342
+!MESSAGE Indexed 'openwsn-fw' (568 sources, 570 headers) in 26.2 sec: 50,349 declarations; 164,268 references; 395 unresolved inclusions; 303 syntax errors; 9,126 unresolved names (4.1%)
+
+!ENTRY ch.hsr.ifs.sconsolidator.core 1 1 2016-05-10 09:55:15.333
+!MESSAGE /usr/bin/scons -u --jobs=2 board=telosb toolchain=mspgcc oos_openwsn
+
+!ENTRY ch.hsr.ifs.sconsolidator.core 1 1 2016-05-10 09:55:15.333
+!MESSAGE /usr/bin/scons -u --jobs=2 board=telosb toolchain=mspgcc oos_openwsn
+
+!ENTRY ch.hsr.ifs.sconsolidator.core 4 1 2016-05-10 09:55:16.694
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: 
+	at ch.hsr.ifs.sconsolidator.core.console.BuildConsole.addBuildConsoleColorLink(BuildConsole.java:170)
+	at ch.hsr.ifs.sconsolidator.core.commands.SConsCommand.handleExit(SConsCommand.java:236)
+	at ch.hsr.ifs.sconsolidator.core.commands.SConsCommand.run(SConsCommand.java:112)
+	at ch.hsr.ifs.sconsolidator.core.commands.BuildCommand.run(BuildCommand.java:1)
+	at ch.hsr.ifs.sconsolidator.core.SConsBuilder.runSConsBuild(SConsBuilder.java:143)
+	at ch.hsr.ifs.sconsolidator.core.SConsBuilder.build(SConsBuilder.java:48)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:287)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 ch.hsr.ifs.sconsolidator.core 4 0 2016-05-10 09:55:16.701
+!MESSAGE 
+
+!ENTRY ch.hsr.ifs.sconsolidator.core 4 1 2016-05-10 09:55:16.704
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: 
+	at ch.hsr.ifs.sconsolidator.core.console.BuildConsole.addBuildConsoleColorLink(BuildConsole.java:170)
+	at ch.hsr.ifs.sconsolidator.core.commands.SConsCommand.handleExit(SConsCommand.java:236)
+	at ch.hsr.ifs.sconsolidator.core.commands.SConsCommand.run(SConsCommand.java:112)
+	at ch.hsr.ifs.sconsolidator.core.commands.BuildCommand.run(BuildCommand.java:1)
+	at ch.hsr.ifs.sconsolidator.core.SConsBuilder.runSConsBuild(SConsBuilder.java:143)
+	at ch.hsr.ifs.sconsolidator.core.SConsBuilder.build(SConsBuilder.java:48)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:287)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 ch.hsr.ifs.sconsolidator.core 4 0 2016-05-10 09:55:16.704
+!MESSAGE 
+
+!ENTRY ch.hsr.ifs.sconsolidator.core 1 1 2016-05-10 10:00:09.603
+!MESSAGE /usr/bin/scons -u --jobs=2 board=telosb toolchain=mspgcc oos_openwsn
+
+!ENTRY ch.hsr.ifs.sconsolidator.core 1 1 2016-05-10 10:00:09.603
+!MESSAGE /usr/bin/scons -u --jobs=2 board=telosb toolchain=mspgcc oos_openwsn
